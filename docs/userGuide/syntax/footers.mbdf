@@ -37,7 +37,7 @@ Notes:
 - An inline footer needs to be the last element in the page.
 - The footer specified in the `<frontmatter>` overrides the inline footer, if the page has any.
 - Footers nested in other components or HTML tags will be shifted outside of the enclosing tag.
-- [MarkBind Components]({{ baseUrl }}/userGuide/usingComponents.html) and [`<include>` tags]({{ baseUrl }}/userGuide/reusingContents.html#the-include-tag) are not supported in footers.
+- [MarkBind Components](userGuide/usingComponents.html) and [`<include>` tags](userGuide/reusingContents.html#the-include-tag) are not supported in footers.
 
 <span id="short" class="d-none">
 ```html
@@ -53,5 +53,5 @@ Notes:
 </span>
 <span id="examples" class="d-none">
 
-You can see an example of a footer ==at the bottom== of <a target="_blank" href="{{ baseUrl }}/userGuide/formattingContents.html">this page</a>.
+You can see an example of a footer ==at the bottom== of <a target="_blank" href="userGuide/formattingContents.html">this page</a>.
 </span>

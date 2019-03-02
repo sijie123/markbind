@@ -16,7 +16,7 @@
 <span id="icon_info">:fas-info-circle:</span>
 <span id="icon_ticked">:far-check-square:</span>
 
-<span id="link_live_preview">[live preview]({{ baseUrl }}/userGuide/glossary.html#live-preview)</span>
+<span id="link_live_preview">[live preview](userGuide/glossary.html#live-preview)</span>
 
 <span id="tooltip_root_directory"><tooltip content="The directory that contains all the project files. It is also the directory in which the `site.json` configuration file is located.">root directory</tooltip></span>
 

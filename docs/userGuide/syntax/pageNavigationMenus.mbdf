@@ -34,5 +34,5 @@ A pageNav has a fixed width of 300 pixels for its contents. It is [_responsive_]
 
 <span id="examples" class="d-none">
 
-You can see an example of a Page Navigation Bar ==on the right side== of <a target="_blank" href="{{ baseUrl }}/userGuide/formattingContents.html">this page</a>.
+You can see an example of a Page Navigation Bar ==on the right side== of <a target="_blank" href="userGuide/formattingContents.html">this page</a>.
 </span>

@@ -45,15 +45,45 @@ MarkBind home is at [here][1]
 
 <div id="intraSiteLinks">
 
-Links to files of the generated site (e.g., an HTML page or an image file) should be specified as absolute paths and should start with {{ showBaseUrlCode }} (which represents the root directory of the project).
+Links to files of the generated site (e.g., an HTML page or an image file) can be specified either as relative paths or absolute paths.
+
+
+and should start with {{ showBaseUrlCode }} (which represents the root directory of the project).
 
 <div class="indented">
 
+Absolute paths: Links should start with {{ showBaseUrlCode }} (which represents the root directory of the project). 
 {{ icon_example }} Here's how to specify a link to (1) a page, and (2) an image, using the {{ showBaseUrlCode }}:
 
-1. <code>Click [here]({<span></span>{ baseUrl }}/userGuide/reusingContents.html).</code>
+1. <code>Click [here]({<span></span>{ showBaseUrlCode }}/userGuide/reusingContents.html).</code>
 2. `![](`{{ showBaseUrlCode }}`/images/preview.png)`
 
+</div>
+
+<div class="indented">
+
+Relative paths: Links to files can be specified relative to the file that includes it.
+{{ icon_example }} Assuming that we have the following folder structure:
+```
+/
+- index.md
+- sub/
+- - img.png
+- - subsite.md
+```
+Within subsite.md, we can specify a link to the image using:
+```html
+<img src="img.png" />
+```
+Within index.md, we can also specify a link to the image using
+_index.md_
+```html
+<include src="sub/a.png" />
+```
+or by including `subsite.md`:
+```
+<include src="a/subsite.md" />
+```
 </div>
 </div>
 

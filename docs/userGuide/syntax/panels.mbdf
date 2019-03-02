@@ -195,14 +195,14 @@
 <span id="code">
 
 ```html
-<panel header="Try clicking on my pop-up button" popup-url="{{ baseUrl }}/userGuide/syntax/extra/loadContent.html">
+<panel header="Try clicking on my pop-up button" popup-url="userGuide/syntax/extra/loadContent.html">
   This panel has a popup.
 </panel>
 ```
 </span>
 <span id="output">
 
-<panel header="Try clicking on my pop-up button" popup-url="{{ baseUrl }}/userGuide/syntax/extra/loadContent.html">
+<panel header="Try clicking on my pop-up button" popup-url="userGuide/syntax/extra/loadContent.html">
   This panel has a popup.
 </panel>
 </span>

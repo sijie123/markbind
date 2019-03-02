@@ -1,5 +1,5 @@
 <span id="link" class="d-none">
-<md>[_User Guide → Reusing Contents → Variables_]({{ baseUrl }}/userGuide/reusingContents.html#variables)</md>
+<md>[_User Guide → Reusing Contents → Variables_](userGuide/reusingContents.html#variables)</md>
 </span>
 
 ## Variables
@@ -80,7 +80,7 @@ Represents the root directory of the project. Used for specifying intra-site lin
 
 ##### Variables: Defaults
 
-You can specify a default value for a variable, which is displayed when the variable is not specified in `variables.md` and by any of the [includes]({{ baseUrl }}/userGuide/reusingContents.html#the-include-tag) of the page. This is done by adding `or defaultValue` within the curly braces.
+You can specify a default value for a variable, which is displayed when the variable is not specified in `variables.md` and by any of the [includes](userGuide/reusingContents.html#the-include-tag) of the page. This is done by adding `or defaultValue` within the curly braces.
 
 <div class="indented">
 
@@ -101,7 +101,7 @@ You can specify a default value for a variable, which is displayed when the vari
 <code>My name is {<span></span>{ full_name }}. This is {<span></span>{ full_name }}'s site.</code>
 </div>
 
-Note: These variables will not be applied to [`<include>` files]({{ baseUrl }}/userGuide/reusingContents.html#the-include-tag). Additionally, global variables (`_markbind/variables.md`) will take precedence over any page variables. *See also: [Specifying Variables in an `<include>`]({{ baseUrl }}/userGuide/reusingContents.html#specifying-variables-in-an-include)*.
+Note: These variables will not be applied to [`<include>` files](userGuide/reusingContents.html#the-include-tag). Additionally, global variables (`_markbind/variables.md`) will take precedence over any page variables. *See also: [Specifying Variables in an `<include>`](userGuide/reusingContents.html#specifying-variables-in-an-include)*.
 
 
 ### Variables: Tips and Tricks
